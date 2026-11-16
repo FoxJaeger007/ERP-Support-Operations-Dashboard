@@ -1,12 +1,14 @@
 # ERP Support Operations Dashboard
 
-## Vista Previa
 
-![Resumen Ejecutivo](Images/dashboard_executive.png)
 
 ## Descripción del Proyecto
 
 Proyecto de análisis de datos y Business Intelligence enfocado en la gestión de incidentes de soporte ERP. El objetivo principal es evaluar el desempeño operativo, el cumplimiento de los acuerdos de nivel de servicio (SLA) y la eficiencia de los procesos de atención mediante técnicas de análisis exploratorio de datos (EDA) en Python y visualización interactiva en Power BI.
+
+## Vista Previa
+
+![Resumen Ejecutivo](Images/dashboard_executive.png)
 
 ---
 
@@ -20,9 +22,9 @@ Fuente oficial:
 
 [\[Enlace a la fuente oficial\]](https://archive.ics.uci.edu/dataset/498/incident+management+process+enriched+event+log)
 
-El conjunto de datos fue utilizado exclusivamente con fines educativos y de construcción de portafolio profesional
+- El conjunto de datos fue utilizado exclusivamente con fines educativos y de construcción de portafolio profesional
 
-El conjunto de datos original fue almacenado en:
+- El conjunto de datos original fue almacenado en:
 
 ```text
 Data/
@@ -45,7 +47,7 @@ Data/
 
 **Incident Management Process Enriched Event Log**
 
-Características principales:
+Características principales del dataset:
 
 - 141.712 registros de eventos.
 - 24.918 incidentes únicos.
@@ -70,8 +72,8 @@ Características principales:
 
 ### Documentación
 
-- Jupyter Notebook
-- Microsoft Excel
+- Jupyter Notebook - Contiene el detalle de la transformación y analisis
+- Microsoft Excel - Se utilizo para exploración inicial y creación del diccionario de datos
 
 ---
 
@@ -129,7 +131,7 @@ El dashboard fue diseñado en tres niveles de análisis:
 - Complejidad operativa.
 - Tendencias temporales.
 
-![Resumen Ejecutivo](Images/dashboard_executive.png)
+![Página 1 - Resumen Ejecutivo](Images/dashboard_executive.png)
 
 ### Página 2: Perfil de Incidentes
 
@@ -139,7 +141,7 @@ El dashboard fue diseñado en tres niveles de análisis:
 - Relación impacto-urgencia.
 - Cumplimiento SLA por prioridad.
 
-![Resumen Ejecutivo](Images/dashboard_profile.png)
+![Página 2 - Perfil de Incidentes](Images/dashboard_profile.png)
 
 ### Página 3: Gestión Operativa
 
@@ -148,7 +150,7 @@ El dashboard fue diseñado en tres niveles de análisis:
 - Reasignaciones.
 - Reaperturas.
 
-![Resumen Ejecutivo](Images/dashboard_operations.png)
+![Página 3 - Gestión Operativa](Images/dashboard_operations.png)
 
 ---
 
@@ -159,12 +161,11 @@ ERP-Support-Operations-Dashboard
 │
 ├── Data
 │   ├── Raw
-│   │   └── incident+management+process+enriched+event+log.zip   - Data set Original
+│   │   └── incident+management+process+enriched+event+log.zip   - Dataset Original
 │   │
 │   └── Processed
-│       ├── Diccionario de datos.xlsx                            - Diccionario de datos y comentarios del data set
-│       ├── incident_powerbi.csv                                 - Archivo CSV creado con la depuracion de python para alimentar el power BI
-│       └── incident_powerbi_single.csv                          - Archivo CSV creado con la depuracion de python para alimentar el power BI
+│       ├── Diccionario de datos.xlsx                            - Diccionario de datos y comentarios del dataset
+│       └── incident_powerbi_single.csv                          - Archivo CSV creado con la depuración de python para alimentar el power BI
 │
 ├── Images
 │   ├── dashboard_executive.png                                  - Imagen de la primera hoja de power bi, contiene el resumen ejecutivo
@@ -172,7 +173,7 @@ ERP-Support-Operations-Dashboard
 │   └── dashboard_operations.png                                 - Imagen de la tercera hoja de power bi, contiene el detalle de los casos
 │
 ├── Notebooks
-│   └── ERP_Incident_Analysis.ipynb                              - Notebook de Jupyter utilizado para la limpieza, transformación y análisis de datos.
+│   └── ERP_Incident_Analysis.ipynb                              - Notebook de Jupyter utilizado para realizar a detalle la limpieza, transformación y análisis de datos.
 │
 ├── Power BI
 │   └── ERP_Support_Dashboard.pbix                               - Archivo Power BI que contiene el dashboard construido a partir del proceso de limpieza y análisis realizado en Python.
@@ -181,6 +182,13 @@ ERP-Support-Operations-Dashboard
 ├── LICENSE
 └── .gitignore
 ```
+---
+
+## Conclusión
+
+El proyecto permitió transformar un registro de eventos de gestión de incidentes en un conjunto de indicadores operativos y ejecutivos mediante técnicas de análisis de datos en Python y visualización interactiva en Power BI.
+
+Los resultados obtenidos permitieron identificar patrones relevantes relacionados con el cumplimiento de SLA, la complejidad operativa, las reasignaciones de casos y el perfil general de los incidentes gestionados.
 
 ---
 
