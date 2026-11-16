@@ -24,9 +24,10 @@ El conjunto de datos fue utilizado exclusivamente con fines educativos y de cons
 
 El conjunto de datos original fue almacenado en:
 
+```text
 Data/
 ├── Raw/
-
+```
 
 ---
 
