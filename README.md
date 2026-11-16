@@ -72,8 +72,8 @@ Características principales del dataset:
 
 ### Documentación
 
-- Jupyter Notebook - Contiene el detalle de la transformación y analisis
-- Microsoft Excel - Se utilizo para exploración inicial y creación del diccionario de datos
+- Jupyter Notebook - Contiene el detalle de la transformación y análisis
+- Microsoft Excel - Se utilizó para exploración inicial y creación del diccionario de datos
 
 ---
 
@@ -165,12 +165,12 @@ ERP-Support-Operations-Dashboard
 │   │
 │   └── Processed
 │       ├── Diccionario de datos.xlsx                            - Diccionario de datos y comentarios del dataset
-│       └── incident_powerbi_single.csv                          - Archivo CSV creado con la depuración de python para alimentar el power BI
+│       └── incident_powerbi_single.csv                          - Archivo CSV creado con la depuración de Python para alimentar el Power BI
 │
 ├── Images
-│   ├── dashboard_executive.png                                  - Imagen de la primera hoja de power bi, contiene el resumen ejecutivo
-│   ├── dashboard_profile.png                                    - Imagen de la segunda hoja de power bi, contiene el perfil de incidentes
-│   └── dashboard_operations.png                                 - Imagen de la tercera hoja de power bi, contiene el detalle de los casos
+│   ├── dashboard_executive.png                                  - Imagen de la primera pagina de Power BI, contiene el resumen ejecutivo
+│   ├── dashboard_profile.png                                    - Imagen de la segunda pagina de Power BI, contiene el perfil de incidentes
+│   └── dashboard_operations.png                                 - Imagen de la tercera pagina de Power BI, contiene el detalle operativo de los casos
 │
 ├── Notebooks
 │   └── ERP_Incident_Analysis.ipynb                              - Notebook de Jupyter utilizado para realizar a detalle la limpieza, transformación y análisis de datos.
